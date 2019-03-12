@@ -51,7 +51,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
+
     /*==================================================================
     [ Show pass ]*/
     var showPass = 0;
@@ -68,8 +68,8 @@
             $(this).find('i').addClass('fa-eye');
             showPass = 0;
         }
-        
+
     });
-    
+
 
 })(jQuery);
