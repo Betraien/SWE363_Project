@@ -1,13 +1,13 @@
 
 function logged() {
 
-  localStorage.setItem('logged_in',1);
+  logged = true;
 
   window.location.href = "index.html";
 }
 function loggedout() {
 
-  localStorage.setItem('logged_in', 0);
+  logged = false;
 
   window.location.href = "index.html";
 }
