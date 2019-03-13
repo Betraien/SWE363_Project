@@ -1,5 +1,4 @@
 
-
 window.onload = function() {
 
 
@@ -7,7 +6,7 @@ window.onload = function() {
 
         document.getElementById('authentic').style.display = 'none';
     } else {
-        
+
         document.getElementById('authentic1').style.display = 'none';
     }
 }
