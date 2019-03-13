@@ -15,6 +15,6 @@ function login(v) {
 
  localStorage.setItem('login', v);
 
-  window.location.href = "index.html";
+  history.back();
 
 }
