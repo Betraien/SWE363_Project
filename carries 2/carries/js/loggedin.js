@@ -1,26 +1,21 @@
 
-var logged;
+
 window.onload = function() {
 
 
-    if(logged == true) {
-        document.getElementById('authentic1').style.display = 'block';
+    if(localStorage.getItem('login') == 1) {
+
         document.getElementById('authentic').style.display = 'none';
     } else {
-        document.getElementById('authentic').style.display = 'block';
+        
         document.getElementById('authentic1').style.display = 'none';
     }
 }
 
-function logged() {
+function login(v) {
 
-  logged = true;
-
-  window.location.href = "index.html";
-}
-function loggedout() {
-
-  logged = false;
+ localStorage.setItem('login', v);
 
   window.location.href = "index.html";
+
 }
